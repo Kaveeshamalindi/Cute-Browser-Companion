@@ -2,7 +2,11 @@
 
 A simple and aesthetic browser companion extension that stays on your screen while you browse. 🌸
 
-It provides small reminders for **motivation, hydration, and taking breaks** — without using AI or external APIs.
+It provides small reminders for **motivation, hydration, and taking breaks**.
+
+<p align="center">
+  <img src="img.png" width="800">
+</p>
 
 ---
 
