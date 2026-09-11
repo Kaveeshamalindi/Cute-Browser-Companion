@@ -1,0 +1,209 @@
+#browser-companion {
+
+    position: fixed;
+
+    right: 25px;
+
+    bottom: 25px;
+
+    width: 190px;
+
+    text-align: center;
+
+    z-index: 2147483647;
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    user-select: none;
+
+}
+
+
+/* Message */
+
+#companion-message {
+
+    background: rgba(255,255,255,0.95);
+
+    padding: 12px 14px;
+
+    border-radius: 18px;
+
+    color: #333;
+
+    font-size: 13px;
+
+    line-height: 1.4;
+
+    box-shadow:
+        0 8px 25px
+        rgba(0,0,0,0.12);
+
+    opacity: 0;
+
+    transform:
+        translateY(10px);
+
+    transition:
+        all 0.4s ease;
+
+}
+
+
+#companion-message.show {
+
+    opacity: 1;
+
+    transform:
+        translateY(0);
+
+}
+
+
+/* Character */
+
+#companion-character {
+
+    font-size: 72px;
+
+    margin-top: 8px;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    animation:
+
+        floating
+        3s
+        ease-in-out
+        infinite;
+
+    filter:
+        drop-shadow(
+            0 8px 6px
+            rgba(0,0,0,0.15)
+        );
+
+}
+
+
+@keyframes floating {
+
+    0% {
+
+        transform:
+            translateY(0);
+
+    }
+
+    50% {
+
+        transform:
+            translateY(-10px);
+
+    }
+
+    100% {
+
+        transform:
+            translateY(0);
+
+    }
+
+}
+
+
+/* Name */
+
+#companion-name {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    color: #555;
+
+    margin-top: -5px;
+
+}
+
+
+/* Buttons */
+
+#companion-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 7px;
+
+    margin-top: 8px;
+
+}
+
+
+#companion-buttons button {
+
+    width: 32px;
+
+    height: 32px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: white;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 4px 12px
+        rgba(0,0,0,0.12);
+
+    transition:
+        transform 0.2s;
+
+}
+
+
+#companion-buttons button:hover {
+
+    transform:
+        translateY(-3px)
+        scale(1.08);
+
+}
+
+
+/* Close button */
+
+#close-btn {
+
+    position: absolute;
+
+    right: -5px;
+
+    top: -5px;
+
+    width: 24px;
+
+    height: 24px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: white;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 3px 10px
+        rgba(0,0,0,0.15);
+
+}

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Cute Browser Companion",
+  "version": "1.0.0",
+  "description": "A cute little browser companion for motivation, hydration and breaks.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
