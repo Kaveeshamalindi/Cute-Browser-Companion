@@ -120,5 +120,4 @@ This project was created as a small beginner-friendly JavaScript project to expl
 
 ---
 
-<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px"> 
-Made with ⭐ JavaScript & a little bit of magic. <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">
+<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px"> Made with ⭐ JavaScript & a little bit of magic. <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">
